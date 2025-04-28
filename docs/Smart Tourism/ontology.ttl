@@ -1,0 +1,884 @@
+@prefix : <http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#> .
+
+<http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> rdf:type owl:ObjectProperty ;
+                                                                                                                                    owl:inverseOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> ,
+                                                                                                                                                  <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> ,
+                                                                                                                                                  <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> ;
+                                                                                                                                    rdf:type owl:FunctionalProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                                                  owl:onClass <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7>
+                                                                                                                                                ] ,
+                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                                                  owl:onClass <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67>
+                                                                                                                                                ] ,
+                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                                                  owl:onClass <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies the different tourist resources (hotels, restaurants and attractions) that are located in a given city." ;
+                                                                                                                                    rdfs:label "locatedIn"@es ,
+                                                                                                                                               "locatedIn" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> rdf:type owl:ObjectProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> ;
+                                                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies in which city the attraction is located." ;
+                                                                                                                                    rdfs:label "attractionIn"@es ,
+                                                                                                                                               "attractionIn" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> rdf:type owl:ObjectProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> ;
+                                                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies in which city the restaurant is located." ;
+                                                                                                                                    rdfs:label "restaurantIn"@es ,
+                                                                                                                                               "restaurantIn" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> rdf:type owl:ObjectProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> ;
+                                                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies in which city the hotel is located." ;
+                                                                                                                                    rdfs:label "hotelIn"@es ,
+                                                                                                                                               "hotelIn" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82> rdf:type owl:ObjectProperty ;
+                                                                                                                                    owl:inverseOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> ;
+                                                                                                                                    rdf:type owl:FunctionalProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82> ;
+                                                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                                                  owl:onClass <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Propiedad que indica los eventos a los que se puede acudir en una  ciudad determinada." ;
+                                                                                                                                    rdfs:label "takesPlace"@es ,
+                                                                                                                                               "takesPlace" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662> rdf:type owl:ObjectProperty ;
+                                                                                                                                    owl:inverseOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> ;
+                                                                                                                                    rdf:type owl:IrreflexiveProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662> ;
+                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that relates cities to the different transportation services." ;
+                                                                                                                                    rdfs:label "connectsTo"@es ,
+                                                                                                                                               "connectsTo" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> rdf:type owl:ObjectProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> ;
+                                                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies in which city the event is located." ;
+                                                                                                                                    rdfs:label "eventIn"@es ,
+                                                                                                                                               "eventIn" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> rdf:type owl:ObjectProperty ;
+                                                                                                                                    rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> ;
+                                                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4>
+                                                                                                                                                ] ;
+                                                                                                                                    rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> ;
+                                                                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694>
+                                                                                                                                               ] ;
+                                                                                                                                    rdfs:comment "Property that specifies in which city the transport is located." ;
+                                                                                                                                    rdfs:label "transportIn"@es ,
+                                                                                                                                               "transportIn" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                                  rdfs:range xsd:dateTime ;
+                                                                                                                                  rdfs:comment "Date of the event." ;
+                                                                                                                                  rdfs:label "date"@es ,
+                                                                                                                                             "date" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each hotel." ;
+                                                                                                                                  rdfs:label "restaurant_id"@es ,
+                                                                                                                                             "restaurant_id" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each event." ;
+                                                                                                                                  rdfs:label "event_id"@es ,
+                                                                                                                                             "event_id" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                                  rdfs:range xsd:double ;
+                                                                                                                                  rdfs:comment "average price of a transport" ;
+                                                                                                                                  rdfs:label "avg_cost"@es ,
+                                                                                                                                             "avg_cost" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4> ;
+                                                                                                                                  rdfs:range xsd:string ;
+                                                                                                                                  rdfs:comment "geographic coordinates of the different cities." ;
+                                                                                                                                  rdfs:label "location"@es ,
+                                                                                                                                             "location" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                                  rdfs:range xsd:double ;
+                                                                                                                                  rdfs:comment "cost per night at the hotel." ;
+                                                                                                                                  rdfs:label "night_cost"@es ,
+                                                                                                                                             "night_cost" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                                  rdfs:range xsd:double ;
+                                                                                                                                  rdfs:comment "average price of a restaurant." ;
+                                                                                                                                  rdfs:label "avg_price"@es ,
+                                                                                                                                             "avg_price" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ;
+                                                                                                                                  rdfs:range xsd:double ;
+                                                                                                                                  rdfs:comment "rating given by users to restaurants, attractions or hotels." ;
+                                                                                                                                  rdfs:label "rating"@es ,
+                                                                                                                                             "rating" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each city." ;
+                                                                                                                                  rdfs:label "city_id"@es ,
+                                                                                                                                             "city_id" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ;
+                                                                                                                                  rdfs:range xsd:string ;
+                                                                                                                                  rdfs:comment "The names of instances of all classes except transport" ;
+                                                                                                                                  rdfs:label "name"@es ,
+                                                                                                                                             "name" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each attraction." ;
+                                                                                                                                  rdfs:label "attraction_id"@es ,
+                                                                                                                                             "attraction_id" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "categorization of a hotel." ;
+                                                                                                                                  rdfs:label "stars"@es ,
+                                                                                                                                             "stars" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_e2653c9b_5098_4472_b0ae_1d744757c7ec
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_e2653c9b_5098_4472_b0ae_1d744757c7ec> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                                  rdfs:range xsd:string ;
+                                                                                                                                  rdfs:comment "Names of the different transport companies" ;
+                                                                                                                                  rdfs:label "company"@es ,
+                                                                                                                                             "company" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each hotel." ;
+                                                                                                                                  rdfs:label "hotel_id"@es ,
+                                                                                                                                             "hotel_id" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d> rdf:type owl:DatatypeProperty ;
+                                                                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                                                                  rdfs:domain <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                                  rdfs:range xsd:positiveInteger ;
+                                                                                                                                  rdfs:comment "Identification number corresponding to each transport." ;
+                                                                                                                                  rdfs:label "transport_id"@es ,
+                                                                                                                                             "transport_id" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                    rdfs:comment "Establishment intended for tourist accommodation located in coastal areas, with promenades and beaches." ;
+                                                                                    rdfs:label "Beach" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                             rdfs:comment "A set of manifestations or knowledge that help us observe, feel, learn... about: customs of an area, historical facts, art in general..." ;
+                                                                                             rdfs:label "Cultural" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                        rdfs:comment "An event designed to promote, share and celebrate any type of artistic expression, tradition, knowledge, custom, or value." ;
+                                                                                        rdfs:label "Cultural" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ;
+                                                                                                                           rdfs:comment "A pre-organized event that gather a group of people at a specific time and place. These events can involve sports, music, technology, etc." ;
+                                                                                                                           rdfs:label "Events"@es ,
+                                                                                                                                      "Events" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                           rdfs:comment "A gastronomic variety specializing in traditional dishes from the region of Andalusia." ;
+                                                                                                                           rdfs:label "Andalusian"@es ,
+                                                                                                                                      "Andalusian" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                           rdfs:comment "Public transport that runs on rails through the city center." ;
+                                                                                                                           rdfs:label "Tram"@es ,
+                                                                                                                                      "Tram" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                           rdfs:comment "Transport for more than 9 people. These can be public or private, such as those that take you to various attractions or, for example, from the airport to the hotel." ;
+                                                                                                                           rdfs:label "Bus"@es ,
+                                                                                                                                      "Bus" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                           rdfs:comment "Gastronomic variety specializing in Italian cuisine." ;
+                                                                                                                           rdfs:label "Italian"@es ,
+                                                                                                                                      "Italian" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                                                           rdfs:comment "A place in towns or cities, with vegetation intended for recreation. Some of them have a playground." ;
+                                                                                                                           rdfs:label "Park"@es ,
+                                                                                                                                      "Park" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ;
+                                                                                                                           rdfs:comment "A large area with a large population, with buildings used for housing, food, administration, leisure, etc." ;
+                                                                                                                           rdfs:label "Cities"@es ,
+                                                                                                                                      "Cities" ;
+                                                                                                                           rdfs:sameAs "https://dbpedia.org/page/City" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                           rdfs:comment "events where guests taste different foods or drinks." ;
+                                                                                                                           rdfs:label "Gastronomic"@es ,
+                                                                                                                                      "Gastronomic" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                           rdfs:comment "Gastronomic variety specialized in Mexican food." ;
+                                                                                                                           rdfs:label "Mexican"@es ,
+                                                                                                                                      "Mexican" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                           rdfs:comment "Public transport, where the driver takes you to the required location." ;
+                                                                                                                           rdfs:label "Taxi"@es ,
+                                                                                                                                      "Taxi" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0> ;
+                                                                                                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:positiveInteger
+                                                                                                                                           ] ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0> ;
+                                                                                                                                             owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:positiveInteger
+                                                                                                                                           ] ;
+                                                                                                                           rdfs:comment "Establishments intended to accommodate tourists for a short period of time, at a specific price. They can be classified by star rating, location, cost, etc." ;
+                                                                                                                           rdfs:label "Hotels"@es ,
+                                                                                                                                      "Hotels" ;
+                                                                                                                           rdfs:sameAs "https://dbpedia.org/page/Hotel" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                           rdfs:comment "event where people gather to listen to one or more pieces of music by one or more artists or even different types of music." ;
+                                                                                                                           rdfs:label "Music"@es ,
+                                                                                                                                      "Music" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ;
+                                                                                                                           rdfs:comment "A means of transportation designed to transport people from one place to another, facilitating mobility within a territory." ;
+                                                                                                                           rdfs:label "Transports"@es ,
+                                                                                                                                      "Transports" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ;
+                                                                                                                           rdfs:comment "Establishments where you pay to enjoy a variety of dishes, desserts, and drinks. They could be specialized in Italian, Mexican, Mediterranean, etc." ;
+                                                                                                                           rdfs:label "Restaurants"@es ,
+                                                                                                                                      "Restaurants" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                                                           rdfs:comment "Ancient buildings of historical, artistic, scientific or social interest." ;
+                                                                                                                           rdfs:label "Monument"@es ,
+                                                                                                                                      "Monument" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ,
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> ;
+                                                                                                                                             owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                                                                                                                                             owl:onDataRange xsd:double
+                                                                                                                                           ] ;
+                                                                                                                           rdfs:comment "Facilities and places of special interest to everyone, especially tourists, like museums, monuments, beach…." ;
+                                                                                                                           rdfs:label "Attractions"@es ,
+                                                                                                                                      "Attractions" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                                                           rdfs:comment "Underground public transportation." ;
+                                                                                                                           rdfs:label "Metro"@es ,
+                                                                                                                                      "Metro" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b> rdf:type owl:Class ;
+                                                                                                                           rdfs:comment "Abstract root class about all means or activities that are used or carried out during trips" ;
+                                                                                                                           rdfs:label "Tourism"@es ,
+                                                                                                                                      "Tourism" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                                                           rdfs:comment "Building where cultural heritage is exhibited, preserved, collected and researched." ;
+                                                                                                                           rdfs:label "Museum"@es ,
+                                                                                                                                      "Museum" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                           rdfs:comment "Gastronomic variety specialized in the traditional type of food based on the Mediterranean diet, typical of the countries near of the Mediterranean Sea" ;
+                                                                                                                           rdfs:label "Mediterranean"@es ,
+                                                                                                                                      "Mediterranean" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                           rdfs:comment "Establishments designed to accommodate business travelers, they are usually located in the city center and offer services such as photocopying, internet, meeting rooms, and more." ;
+                                                                                                                           rdfs:label "Business"@es ,
+                                                                                                                                      "Business" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                                                                           rdfs:comment "Gastronomic variety specialized in Japanese food." ;
+                                                                                                                           rdfs:label "Japanese"@es ,
+                                                                                                                                      "Japanese" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                           rdfs:comment "Meeting or gathering where information, knowledge, and advances related to technology are shared and promoted." ;
+                                                                                                                           rdfs:label "Technological"@es ,
+                                                                                                                                      "Technological" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                                                                                           rdfs:comment "Geographical feature composed of very fine particles (sand), found next to the sea, where people go to bathe and sunbathe mainly" ;
+                                                                                                                           rdfs:label "Beach"@es ,
+                                                                                                                                      "Beach" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                                                                           rdfs:comment "Activities or meetings dedicated to observing or participating in some type of sport, whether physical or mental." ;
+                                                                                                                           rdfs:label "Sporting"@es ,
+                                                                                                                                      "Sporting" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                           rdfs:comment "Establishments dedicated to accommodating guests, specializing in providing all the services required by the client to provide a unique experience, regardless of the cost." ;
+                                                                                                                           rdfs:label "Luxury"@es ,
+                                                                                                                                      "Luxury" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                                                                                           rdfs:comment "Establishment intended for tourist accommodation. It is usually located near museums, attractions, events, and places of interest." ;
+                                                                                                                           rdfs:label "Touristic"@es ,
+                                                                                                                                      "Touristic" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                                                     rdfs:comment "Public bicycle rental service located in different parts of the city." ;
+                                                                                     rdfs:label "Public bike" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona> rdf:type owl:NamedIndividual ,
+                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca> ;
+                                                                                            <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> ;
+                                                                                            <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> "4.3"^^xsd:double ;
+                                                                                            <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> "Catredal Barcelona" ;
+                                                                                            <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5> "45"^^xsd:positiveInteger ;
+                                                                                            rdfs:comment "Atracción cultural de tipo religioso, museo, ubicada en la ciudad de Barcelona." ;
+                                                                                            rdfs:label "Catedral Barcelona" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona> rdf:type owl:NamedIndividual ,
+                                                                                                  <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event> ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f> "2024-09-21T00:00:00"^^xsd:dateTime ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53> "12"^^xsd:positiveInteger ;
+                                                                                         rdfs:comment "Cultural event in the city of Barcelona, ​​taking place on September 21, 2024." ;
+                                                                                         rdfs:label "Feria Barcelona" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona> rdf:type owl:NamedIndividual ,
+                                                                                                          <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4> ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3> "250.0"^^xsd:double ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> "4.1"^^xsd:double ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> "Hotel del mar Barcelona" ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0> "5"^^xsd:positiveInteger ;
+                                                                                                 <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4> "34"^^xsd:positiveInteger ;
+                                                                                                 rdfs:comment "Five-star tourist hotel in the city of Barcelona, ​​with an average price of €250" ;
+                                                                                                 rdfs:label "Hotel del Mar Barcelona" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona> rdf:type owl:NamedIndividual ,
+                                                                                                  <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0> ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921> "3.57"^^xsd:double ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> "Metro Barcelona" ;
+                                                                                         <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d> "41"^^xsd:positiveInteger ;
+                                                                                         rdfs:comment "Barcelona city taxi transport." ;
+                                                                                         rdfs:label "Metro Barcelona" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> rdf:type owl:NamedIndividual ,
+                                                                                                                                              <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona> ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36> "41.3874,2.1686" ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8> "4"^^xsd:positiveInteger ;
+                                                                                                                                     <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> "Barcelona" ;
+                                                                                                                                     rdfs:comment "Spanish city with a large tourist influx, located on the Mediterranean coast." ;
+                                                                                                                                     rdfs:label "Barcelona"@es ,
+                                                                                                                                                "Barcelona" ;
+                                                                                                                                     rdfs:sameAs "https://dbpedia.org/page/Barcelona" .
+
+
+###  http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona
+<http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona> rdf:type owl:NamedIndividual ,
+                                                                                                               <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c> ;
+                                                                                                      <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f> ;
+                                                                                                      <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0> "43"^^xsd:positiveInteger ;
+                                                                                                      <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6> "43.0"^^xsd:double ;
+                                                                                                      <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b> "3.8"^^xsd:double ;
+                                                                                                      <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5> "Restaurante Fusión Barcelona" ;
+                                                                                                      rdfs:comment "Mexican restaurant. The average price per person is €43." ;
+                                                                                                      rdfs:label "Restaurente Fusión Barcelona" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9>
+                <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike>
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#a> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#h> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#t> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#e> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#h>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#e>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18.2021-07-30T21:49:07Z) https://github.com/owlcs/owlapi/
