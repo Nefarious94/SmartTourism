@@ -1,0 +1,1255 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#"
+     xml:base="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:SmartTourism="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism/1"/>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <rdfs:comment>Tourism ontology, based on providing information on restaurants, hotels, attractions, and events in several Spanish cities.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#eatIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#eatIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:comment>Property that specifies in which city the restaurant is located.</rdfs:comment>
+        <rdfs:label>eatIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#placeIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#placeIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:comment>Property that specifies that the attraction is located in a specific city.</rdfs:comment>
+        <rdfs:label>placeIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:comment>Property that specifies the different tourist resources (hotels, restaurants and attractions) that are located in a given city.</rdfs:comment>
+        <rdfs:label>locatedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>Property that specifies in which city the attraction is located.</rdfs:comment>
+        <rdfs:label>attractionIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Property that specifies in which city the restaurant is located.</rdfs:comment>
+        <rdfs:label>restaurantIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:comment>Property that specifies in which city the hotel is located.</rdfs:comment>
+        <rdfs:label>hotelIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:comment>Property that indicates the events that can be attended in a given city.</rdfs:comment>
+        <rdfs:label>takesPlace</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:comment>Property that relates cities to the different transportation services.</rdfs:comment>
+        <rdfs:label>connectsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>Property that specifies in which city the event is located.</rdfs:comment>
+        <rdfs:label>eventIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Property that specifies in which city the transport is located.</rdfs:comment>
+        <rdfs:label>transportIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date of the event.</rdfs:comment>
+        <rdfs:label>date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each hotel.</rdfs:comment>
+        <rdfs:label>restaurant_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each event.</rdfs:comment>
+        <rdfs:label>event_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>average price of a transport</rdfs:comment>
+        <rdfs:label>avg_cost</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>geographic coordinates of the different cities.</rdfs:comment>
+        <rdfs:label>location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>cost per night at the hotel.</rdfs:comment>
+        <rdfs:label>night_cost</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>average price of a restaurant.</rdfs:comment>
+        <rdfs:label>avg_price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>rating given by users to restaurants, attractions or hotels.</rdfs:comment>
+        <rdfs:label>rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each city.</rdfs:comment>
+        <rdfs:label>city_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The names of instances of all classes except transport</rdfs:comment>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each attraction.</rdfs:comment>
+        <rdfs:label>attraction_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>categorization of a hotel.</rdfs:comment>
+        <rdfs:label>stars</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_e2653c9b_5098_4472_b0ae_1d744757c7ec -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_e2653c9b_5098_4472_b0ae_1d744757c7ec">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Names of the different transport companies</rdfs:comment>
+        <rdfs:label>company</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each hotel.</rdfs:comment>
+        <rdfs:label>hotel_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:comment>Identification number corresponding to each transport.</rdfs:comment>
+        <rdfs:label>transport_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Economic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Indicates that the transport is economic for the users</rdfs:comment>
+        <rdfs:label>Economic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Recommended -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Recommended">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Indicates that the Restaurant is recommended by and for users</rdfs:comment>
+        <rdfs:label>Recommended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:comment>Establishment intended for tourist accommodation located in coastal areas, with promenades and beaches.</rdfs:comment>
+        <rdfs:label>Beach_club</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>A set of manifestations or knowledge that help us observe, feel, learn... about: customs of an area, historical facts, art in general...</rdfs:comment>
+        <rdfs:label>Cultural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>An event designed to promote, share and celebrate any type of artistic expression, tradition, knowledge, custom, or value.</rdfs:comment>
+        <rdfs:label>Cultural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:comment>A pre-organized event that gather a group of people at a specific time and place. These events can involve sports, music, technology, etc.</rdfs:comment>
+        <rdfs:label>Events</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>A gastronomic variety specializing in traditional dishes from the region of Andalusia.</rdfs:comment>
+        <rdfs:label>Andalusian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Public transport that runs on rails through the city center.</rdfs:comment>
+        <rdfs:label>Tram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Transport for more than 9 people. These can be public or private, such as those that take you to various attractions or, for example, from the airport to the hotel.</rdfs:comment>
+        <rdfs:label>Bus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Gastronomic variety specializing in Italian cuisine.</rdfs:comment>
+        <rdfs:label>Italian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>A place in towns or cities, with vegetation intended for recreation. Some of them have a playground.</rdfs:comment>
+        <rdfs:label>Park</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:comment>A large area with a large population, with buildings used for housing, food, administration, leisure, etc.</rdfs:comment>
+        <rdfs:label>Cities</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/City</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>events where guests taste different foods or drinks.</rdfs:comment>
+        <rdfs:label>Gastronomic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Gastronomic variety specialized in Mexican food.</rdfs:comment>
+        <rdfs:label>Mexican</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Public transport, where the driver takes you to the required location.</rdfs:comment>
+        <rdfs:label>Taxi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Establishments intended to accommodate tourists for a short period of time, at a specific price. They can be classified by star rating, location, cost, etc.</rdfs:comment>
+        <rdfs:label>Hotels</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Hotel</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>event where people gather to listen to one or more pieces of music by one or more artists or even different types of music.</rdfs:comment>
+        <rdfs:label>Music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:comment>A means of transportation designed to transport people from one place to another, facilitating mobility within a territory.</rdfs:comment>
+        <rdfs:label>Transports</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Establishments where you pay to enjoy a variety of dishes, desserts, and drinks. They could be specialized in Italian, Mexican, Mediterranean, etc.</rdfs:comment>
+        <rdfs:label>Restaurants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>Ancient buildings of historical, artistic, scientific or social interest.</rdfs:comment>
+        <rdfs:label>Monument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Facilities and places of special interest to everyone, especially tourists, like museums, monuments, beach….</rdfs:comment>
+        <rdfs:label>Attractions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Underground public transportation.</rdfs:comment>
+        <rdfs:label>Metro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a7ea72a7_2906_4916_aba8_044e394e1b0b">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Abstract root class about all means or activities that are used or carried out during trips</rdfs:comment>
+        <rdfs:label>Tourism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>Building where cultural heritage is exhibited, preserved, collected and researched.</rdfs:comment>
+        <rdfs:label>Museum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Gastronomic variety specialized in the traditional type of food based on the Mediterranean diet, typical of the countries near of the Mediterranean Sea</rdfs:comment>
+        <rdfs:label>Mediterranean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:comment>Establishments designed to accommodate business travelers, they are usually located in the city center and offer services such as photocopying, internet, meeting rooms, and more.</rdfs:comment>
+        <rdfs:label>Business</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+        <rdfs:comment>Gastronomic variety specialized in Japanese food.</rdfs:comment>
+        <rdfs:label>Japanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>Meeting or gathering where information, knowledge, and advances related to technology are shared and promoted.</rdfs:comment>
+        <rdfs:label>Technological</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        <rdfs:comment>Geographical feature composed of very fine particles (sand), found next to the sea, where people go to bathe and sunbathe mainly</rdfs:comment>
+        <rdfs:label>Beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+        <rdfs:comment>Activities or meetings dedicated to observing or participating in some type of sport, whether physical or mental.</rdfs:comment>
+        <rdfs:label>Sporting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:comment>Establishments dedicated to accommodating guests, specializing in providing all the services required by the client to provide a unique experience, regardless of the cost.</rdfs:comment>
+        <rdfs:label>Luxury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+        <rdfs:comment>Establishment intended for tourist accommodation. It is usually located near museums, attractions, events, and places of interest.</rdfs:comment>
+        <rdfs:label>Touristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+        <rdfs:comment>Public bicycle rental service located in different parts of the city.</rdfs:comment>
+        <rdfs:label>Public bike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca"/>
+        <placeIn rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b>
+        <untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>Catredal Barcelona</untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>
+        <untitled-ontology-8:OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">45</untitled-ontology-8:OWLDataPropertyImpl_dbd6b5ea_4341_4e47_9840_3fcb564704b5>
+        <rdfs:comment>Atracción cultural de tipo religioso, museo, ubicada en la ciudad de Barcelona.</rdfs:comment>
+        <rdfs:label>Catedral Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_af6dce20_7f33_4afa_8751_de12501c5a82 rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-21T00:00:00</untitled-ontology-8:OWLDataPropertyImpl_1488cb34_a6ab_4b40_96f3_71e3c1378d1f>
+        <untitled-ontology-8:OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">12</untitled-ontology-8:OWLDataPropertyImpl_3128e504_3950_4469_bd39_f96e190bae53>
+        <rdfs:comment>Cultural event in the city of Barcelona, ​​taking place on September 21, 2024.</rdfs:comment>
+        <rdfs:label>Feria Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_54c826a6_8c78_4ce9_ba2e_ccddef80f322 rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</untitled-ontology-8:OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3>
+        <untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b>
+        <untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>Hotel del mar Barcelona</untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>
+        <untitled-ontology-8:OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">5</untitled-ontology-8:OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0>
+        <untitled-ontology-8:OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">34</untitled-ontology-8:OWLDataPropertyImpl_ec76f2e6_9920_41ad_9cd3_2a39bd6d88d4>
+        <rdfs:comment>Five-star tourist hotel in the city of Barcelona, ​​with an average price of €250</rdfs:comment>
+        <rdfs:label>Hotel del Mar Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Economic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_bc1c2451_9390_49f2_a0fa_617426a75662 rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.57</untitled-ontology-8:OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921>
+        <untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>Metro Barcelona</untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>
+        <untitled-ontology-8:OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">41</untitled-ontology-8:OWLDataPropertyImpl_ffd7d009_1e92_4771_971d_d38ff9cce07d>
+        <rdfs:comment>Barcelona city taxi transport.</rdfs:comment>
+        <rdfs:label>Metro Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_6f051912_54a2_42cf_8cae_48a3572547a8 rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Catedral_Barcelona"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_a0b19df5_8d31_40ee_ab83_3e2446722e1f rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_a8bc2a06_10d6_4472_a34d_1575e2f5c1ce rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Hotel_del_Mar_Barcelona"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_c22f2644_1693_4073_94ec_ba1855869d29 rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Feria_Barcelona"/>
+        <untitled-ontology-8:OWLObjectPropertyImpl_f9257550_f843_4f60_b935_1465aa0aee0c rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Metro_Barcelona"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36>41.3874,2.1686</untitled-ontology-8:OWLDataPropertyImpl_50bed1ed_e7df_4019_a1cd_d4181ba92f36>
+        <untitled-ontology-8:OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">4</untitled-ontology-8:OWLDataPropertyImpl_c6727a59_16ae_459c_9de6_cb5d5cea25b8>
+        <untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>Barcelona</untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>
+        <rdfs:comment>Spanish city with a large tourist influx, located on the Mediterranean coast.</rdfs:comment>
+        <rdfs:label>Barcelona</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Barcelona</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Restaurante_Fusión_Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c"/>
+        <eatIn rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLNamedIndividualImpl_55e67933_5c98_4462_a1b2_c77774d4c79f"/>
+        <untitled-ontology-8:OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">43</untitled-ontology-8:OWLDataPropertyImpl_2a167fbe_e14b_42b9_b139_ad46552bf2b0>
+        <untitled-ontology-8:OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.0</untitled-ontology-8:OWLDataPropertyImpl_7b87b228_0a14_48d8_a446_432d24161cb6>
+        <untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</untitled-ontology-8:OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b>
+        <untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>Restaurante Fusión Barcelona</untitled-ontology-8:OWLDataPropertyImpl_d64d3477_9733_45a8_ab5c_0cd0ffc415c5>
+        <rdfs:comment>Mexican restaurant. The average price per person is €43.</rdfs:comment>
+        <rdfs:label>Restaurente Fusión Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Beach_Club"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_b909609f_9c1c_4d34_8aef_57e052b5ac1f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e9e8416f_8099_4ab5_b18b_a76931bf7df4"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Attraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_2a669d31_b984_4385_89d9_8472cc708d76"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_84b7fb92_4007_4532_af2b_0fd28a8070f4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_a87b29b0_7ca9_46a8_bfb6_6e0f884d54ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d3127b95_4556_403c_b51e_c2dfc20b59a9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Cultural_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3a77c88d_392b_4dff_9b99_7c1b669296f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_646ce2fa_b1cf_4021_acef_f8eb498a86ee"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d00cc566_6ce0_4220_8381_02a5b39edfdf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_d7ff23c9_5a00_4bd1_83ac_d7789170a8ba"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_0b7d23f5_a70a_493d_9094_320ce395cc8e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_38dc44b9_6b70_4ac6_8f05_80c815ac9cd4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_56106101_4f3d_47df_8f88_036b89aa72c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9111ab8b_09d2_4b6d_95a0_ff654d3d252c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_18085aa7_4dd5_40f4_8606_55cc044550b9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_25c5df3b_3db9_4d29_912f_a8d823f159f7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_3c58389b_2183_4cc0_900d_a231bc82c76c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_ab252949_7c41_4e7d_8545_d54936b2e903"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_c147b227_33e3_4a8b_9437_75086897a7be"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_230bd384_b44c_4b9c_9666_8879d99d0717"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_259ae108_699f_44de_8602_dc1422b15fb4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_50a61b47_866b_4017_a3a0_c04afe1301b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_9e89ea2a_ab47_4ee4_a437_44b4ef6b37a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#Public_bike"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#rating">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#t">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#cost">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#h">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_724ebf66_a89f_44c2_8810_2f9d4a5cca67"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_9d710530_c7fe_4ccd_8a76_ed35c024fc5b"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#rating"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#rating"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Recommended"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_65aaa68d_635c_4bbe_a79d_9bd241985694"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_3e47d384_fcad_4210_8c1c_ba1b2001f921"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#cost"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#cost"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/SmartTourism#Economic"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_dceaeddd_fae1_4752_8b6f_ca4445aa59c0"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLClassImpl_e4f094d4_0d3d_4625_8e23_4ad3752025c2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/sergi/ontologies/2025/3/untitled-ontology-8#OWLDataPropertyImpl_68da5cc2_6c86_426a_bd38_778cb9e077a3"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#cost"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="urn:swrl:var#cost"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18.2021-07-30T21:49:07Z) https://github.com/owlcs/owlapi/ -->
+
+
